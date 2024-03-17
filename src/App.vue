@@ -66,6 +66,11 @@ p {
       font-size: 10px!important;
     }
 }
+@media screen and (max-width:390px) {
+  #header h1, #header h1:hover{
+    font-size: 27px!important;
+  }
+}
 @media screen and (max-width:320px) {
   #header h1, #header h1:hover{
     font-size: 25px!important;
