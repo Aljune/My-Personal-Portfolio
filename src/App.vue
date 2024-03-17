@@ -56,10 +56,10 @@ p {
         margin-top: 5px;
         padding: 0 10px
     }
-    .progress-bar h5{
+    .part-progress-bar h5{
       font-size: 16px!important;
     }
-    .progress-bar .p-bar-2 {
+    .part-progress-bar .p-bar-2 {
       margin-top: 10px;
     }
 }

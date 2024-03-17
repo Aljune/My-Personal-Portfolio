@@ -1,6 +1,6 @@
 <template>
     <div class="container-fluid">
-        <div class="row d-flex  progress-bar ">
+        <div class="row d-flex  part-progress-bar ">
             <div class="col-md-6 col-12">
                 <div class="row gap-3">
                     <div class="col-12">
