@@ -8,9 +8,7 @@
             <div class="container">
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                     <div v-for="work in recentWork" :key="work.id" class="col">
-                        <div class="card-item"  data-aos="fade-up" data-aos-offset="200"
-                            :data-aos-delay="work.index * 50" data-aos-duration="2000" data-aos-easing="ease-in-out"
-                            data-aos-mirror="true" data-aos-once="false" >
+                        <div class="card-item" >
                             <div class="card shadow-sm">
                                 <img class="rounded img-fluid" :src="work.image"  alt="">
                                 <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
@@ -19,15 +17,16 @@
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="my-1">
                                             <template v-if="work.web_url">
-                                                <a :href="work.web_url">
-                                                    <button type="button" class="btn me-1 btn-sm btn-outline-secondary">View</button>
+                                                <a :href="work.web_url" target="_blank">
+                                                    <button type="button" class="btn me-1 btn-sm btn-outline-secondary web_url">View</button>
                                                 </a>
                                             </template>
                                             <template v-if="work.web_application">
-                                                <div class="btn btn-sm btn-danger">{{ work.web_application }}</div>
+                                                <div class="btn btn-sm btn-danger web_application">{{ work.web_application }}</div>
                                             </template>
                                         </div>
-                                        <small class="text-muted">{{work.publish_date}}</small>
+                                        
+                                        <small class="text-muted publish_date">{{work.publish_date}}</small>
                                     </div>
                                 </div>
                             </div>

@@ -40,11 +40,11 @@
       <div>
     </div>
     </div>
-    <div data-aos="fade-up"
-     data-aos-duration="3000">
+    <div 
+  >
       <div class="container-fluid mt-5">
           <div class="row">
-              <div class="col-md-12">
+              <div class="col-md-12 ">
                 <ProgressBarComponent/>
               </div>
           </div>

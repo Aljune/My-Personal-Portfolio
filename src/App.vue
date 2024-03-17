@@ -62,5 +62,13 @@ p {
     .part-progress-bar .p-bar-2 {
       margin-top: 10px;
     }
+    .recent-work .web_application, .recent-work .web_url, .recent-work .publish_date {
+      font-size: 10px!important;
+    }
+}
+@media screen and (max-width:375px) {
+  #header h1, #header h1:hover{
+    font-size: 28px!important;
+  }
 }
 </style>
