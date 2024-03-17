@@ -51,10 +51,11 @@ p {
       text-transform: uppercase!important;
     }
     .menu .navbar-collapse {
-      background: #95a59845;
-        border-radius: 7px;
-        margin-top: 5px;
-        padding: 0 10px
+      background: #030303fc;
+      border-radius: 7px;
+      margin-top: 5px;
+      padding: 0 10px;
+      border: 1px solid #fafafa;
     }
     .part-progress-bar h5{
       font-size: 16px!important;
