@@ -163,6 +163,31 @@
     }
 }
 
+@media only screen and (min-width: 360px) {
+    .gif-image{
+        width: 138px;
+    }
+   
+    .footer-image{
+        height: 90px;
+    }
+    .image-gallery {
+        top: -9rem;
+    }
+    .ninjastar-image{
+        width: 30%;
+        height: 45px;
+        left: 11px;
+        z-index: 3;
+    }
+    .shop-here{
+        justify-content: space-evenly;
+        flex-direction: row;
+        top: 42%;
+        left: 50%;
+        width: 100%;
+    }
+}
 
 @media only screen and (min-width: 375px) {
     .gif-image{
