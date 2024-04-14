@@ -1,0 +1,521 @@
+section.checkout-page-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: red;
+}
+
+.checkout-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding-top: 10px;
+  overflow: hidden;
+  height: calc(100vh - 40px);
+  background: darkkhaki;
+  width: 80%;
+}
+
+.email-input-field {
+  display: flex;
+  position: relative;
+}
+
+button.btn-logout-checkout {
+  display: flex;
+  position: relative;
+  margin: 0;
+  padding: 10px;
+  background: transparent;
+}
+
+button.btn-login-checkout {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  width: 60px;
+  height: 30px;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  background: #e5e5e5;
+  border-radius: 5px;
+  margin-top: 15px;
+  position: relative;
+}
+
+.checkout-container-2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+  overflow: hidden;
+  height: calc(100vh - 40px);
+  background: rgb(255, 250, 181);
+  width: 80%;
+}
+
+.contact-info {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left-section {
+  width: 50%;
+}
+
+.right-section {
+  width: 80%;
+}
+
+.contact-info,
+.checkout-form,
+.links-section {
+  margin-bottom: 20px;
+}
+
+.contact-info button,
+.checkout-form button,
+.links-section button {
+  margin-top: 10px;
+}
+
+.checkout-form input,
+.checkout-form select,
+.checkout-form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.checkout-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input.subscribed-checkbox {
+  align-content: center;
+  padding: 0;
+  margin: 0;
+  width: 20px;
+}
+
+label.subscribed {
+  display: flex;
+}
+
+label.subscribed {
+  display: flex;
+  position: relative;
+  right: 6rem;
+}
+
+.shipping-address {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.city-state-zip {
+  display: flex;
+  gap: 10px;
+}
+
+.checkout-navigation button {
+  margin-right: 10px;
+  justify-content: space-between;
+}
+
+.email-checkbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkout-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.user-email {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  right: 7rem;
+  bottom: 10px;
+}
+
+.house-address {
+  display: flex;
+  gap: 10px;
+}
+
+.scrollable-section {
+  overflow-y: auto;
+  height: calc(100% - 20px);
+}
+
+.product-summary {
+  margin-bottom: 20px;
+}
+
+.new-product-list {
+  overflow-y: auto;
+  max-height: 300px;
+}
+
+.product-item-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.product-item-summary img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.subtotal,
+.shipping-info,
+.checkout-heading,
+.total {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.subtotal span,
+.shipping-info span,
+.total span {
+  font-weight: bold;
+}
+
+.links-section {
+  display: flex;
+  justify-content: center;
+}
+
+.links-section button {
+  text-decoration: underline;
+  margin: 0 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.fixed-section {
+  margin: 15px;
+}
+
+.delivery-label {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  margin: 20px;
+}
+
+.shipping-header {
+  display: block;
+}
+
+.options {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  color: black;
+  font-size: 16px;
+}
+
+select.shipping-dropdown {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin-left: 14rem;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+button.return-btn {
+  background: none;
+  font-size: 12px;
+  margin: 0;
+  position: relative;
+  left: -20px;
+}
+
+button.continue-btn {
+  padding: 5px;
+  font-size: 15px;
+  position: relative;
+  left: 130px;
+  margin: 5px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.shipping-address-info {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.user-info {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+
+button.change-btn,
+.checkout-logout-btn {
+  background: none;
+  font-size: 12px;
+  margin: 0;
+  position: relative;
+  left: -20px;
+  text-decoration: underline;
+}
+
+.login-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); // Semi-transparent black overlay
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; // Increase the z-index to ensure it's above other content
+}
+
+.login-modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  z-index: 10000; // Increase the z-index to ensure it's above other content
+  position: relative; // Added position relative
+}
+
+.login-modal form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-modal input[type="text"],
+.login-modal input[type="password"] {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-modal {
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-modal button:hover {
+  background-color: #0056b3;
+}
+
+.close-btn-modal {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 5px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #5900ff;
+  font-size: 16px; // Adjust the font size as needed
+}
+
+.close-btn-modal:hover {
+  color: #000;
+}
+
+@media only screen and (max-width: 460px) {
+  section.checkout-page-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: red;
+    flex-direction: column-reverse;
+
+    .checkout-container {
+      width: 100%;
+      height: calc(100vh - -90px);
+    }
+    .left-section {
+      width: 95%;
+    }
+    h2.checkout-heading {
+      font-size: 19px;
+      margin: 10px;
+    }
+    .contact-info button,
+    .checkout-form button,
+    .links-section button {
+      margin: 10px;
+    }
+    .email-checkbox {
+      position: relative;
+      left: 80px;
+    }
+    .user-email {
+      right: 5rem;
+    }
+    p.subscribed-text {
+      margin-left: 10px;
+    }
+    label.subscribed {
+      right: 5rem;
+    }
+    .checkout-container-2 {
+      width: 100%;
+      height: 60vh;
+    }
+    .right-section {
+      width: 100%;
+    }
+    span {
+      font-size: 13px;
+      font-weight: 700;
+      display: flex;
+    }
+    input.email-input-field {
+      left: -78px;
+    }
+    .button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+    button.button.continue-btn {
+      position: relative;
+      left: 5px;
+    }
+
+    .Header_userContainer .Header_subMenu {
+      position: absolute;
+      top: 69%;
+      right: 0;
+      left: 0rem;
+      width: 100%;
+      height: 233px;
+    }
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  section.checkout-page-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: red;
+    flex-direction: column-reverse;
+
+    .checkout-container {
+      width: 100%;
+      height: calc(100vh - -90px);
+    }
+    .left-section {
+      width: 95%;
+    }
+    h2.checkout-heading {
+      font-size: 19px;
+      margin: 10px;
+    }
+    .contact-info button,
+    .checkout-form button,
+    .links-section button {
+      margin: 10px;
+    }
+    .email-checkbox {
+      position: relative;
+      left: 80px;
+    }
+    .user-email {
+      right: 5rem;
+    }
+    p.subscribed-text {
+      margin-left: 10px;
+    }
+    label.subscribed {
+      right: 5rem;
+    }
+    .checkout-container-2 {
+      width: 100%;
+      height: 60vh;
+    }
+    .right-section {
+      width: 100%;
+    }
+    span {
+      font-size: 13px;
+      font-weight: 700;
+      display: flex;
+    }
+    input.email-input-field {
+      left: -78px;
+    }
+    .button {
+      font-size: 12px;
+      padding: 6px 12px;
+    }
+    button.button.continue-btn {
+      position: relative;
+      left: 5px;
+    }
+    .Header_userContainer .Header_subMenu {
+      position: absolute;
+      top: 69%;
+      right: 0;
+      left: 0rem;
+      width: 100%;
+      height: 233px;
+    }
+  }
+}
