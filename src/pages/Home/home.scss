@@ -280,3 +280,365 @@ iframe {
   overflow: hidden;
   z-index: -100;
 }
+@import "./../../../styles/global.scss";
+/* Responsiveness For Samsung Galaxy S10+, A41+, A22+, A33+ */
+@media only screen and (min-width: 412px) and (min-height: 869px) {
+    /* Styles specific to Samsung Galaxy S10+, A41+, A22+, A33+ */
+}
+
+/* Responsiveness For Samsung Galaxy S10, A41, A22, A33 */
+@media only screen and (min-width: 360px) and (min-height: 760px) {
+   
+/* Styles specific to Samsung Galaxy S10, A41, A22, A33 */
+}
+
+/* Responsiveness For Samsung Galaxy S9, Samsung Galaxy S9+ */
+@media only screen and (min-width: 360px) and (min-height: 740px) {
+/* Styles specific to Samsung Galaxy S9, Samsung Galaxy S9+ */
+    
+}
+
+
+/* Responsiveness For iPhone 14 Pro Max */
+// @media only screen and (min-width: 430px) and (min-height: 932px) and (min-resolution: 50dpi) {
+//     /* Styles specific to iPhone 14 Pro Max */
+        
+//     .gif-image{
+//         width: 106px;
+//     }
+//     .footer-image{
+//         height: 90px;
+//     }
+//     .image-gallery {
+//         top: -3rem;
+//     }
+//     .ninjastar-image{
+//         width: 30%;
+//         height: 90px;
+//         left: 11px;
+//     }
+//     .shop-here{
+//         justify-content: space-evenly;
+//         flex-direction: row;
+//         top: 128%;
+//         left: 50%;
+//     }
+//     .gif-container {
+//         top: 97%;
+//         left: 81%;
+//     }
+       
+// }
+
+@media only screen and (min-width: 412px) {
+
+    .gif-image{
+        width: 138px;
+    }
+    // .gif-container {
+    //     top: 85%!important;
+    // }
+}
+/* Media query for Samsung Galaxy S8+ */
+
+// @media only screen and (device-width: 360px) and (device-height: 740px) and (-webkit-device-pixel-ratio: 4) {
+//     .gif-image{
+//         width: 138px;
+//     }
+//     .gif-container {
+//         top: 81%;
+//         left: 75%;
+//     }
+//     .footer-image{
+//         height: 90px;
+//     }
+//     .image-gallery {
+//         top: -9rem;
+//     }
+//     .ninjastar-image{
+//         width: 30%;
+//         height: 45px;
+//         left: 11px;
+//         z-index: 3;
+//     }
+//     .shop-here{
+//         justify-content: space-evenly;
+//         flex-direction: row;
+//         top: 42%;
+//         left: 50%;
+//         width: 100%;
+//     }
+// }
+
+// @media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+//     .gif-image {
+//         width: 159px!important;
+//         height: 159px!important;
+//     }
+//     .gif-container {
+//         top: 79%!important;
+//     }
+// }
+
+// @media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+//     .gif-image {
+//         width: 159px!important;
+//         height: 159px!important;
+//     }
+//     .gif-container {
+//         top: 83%!important;
+//     }
+// }
+
+// /* Media query for iPhone XR */
+// @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+//     .gif-image {
+//         width: 159px!important;
+//         height: 159px!important;
+//     }
+//     .gif-container {
+//         top: 83%!important;
+//     }
+// }
+
+// @media only screen and (device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) {
+//     .gif-image {
+//         width: 159px!important;
+//         height: 159px!important;
+//     }
+//     .gif-container {
+//         top: 83%!important;
+//     }
+// }
+
+@media only screen and (max-width: 320px) {
+    .gif-image{
+        width: 106px!important;
+    }
+    
+    .footer-image{
+        height: 90px;
+    }
+    .image-gallery {
+        top: -9rem;
+    }
+    .ninjastar-image{
+        width: 30%;
+        height: 45px;
+        left: 11px;
+        top: 33px;
+        z-index: 3;
+    }
+    .shop-here{
+        justify-content: space-evenly;
+        flex-direction: row;
+        top:48%;
+        left: 50%;
+        width: 100%;
+    
+    }
+    // .gif-container {
+    //     top: 78%!important;
+    // }
+    .productlist-section {
+        top: 1em;
+    }
+}
+
+@media only screen and (min-width: 360px) {
+    .gif-image{
+        width: 138px;
+    }
+   
+    .footer-image{
+        height: 90px;
+    }
+    .image-gallery {
+        top: -9rem;
+    }
+    .ninjastar-image{
+        width: 30%;
+        height: 45px;
+        left: 11px;
+        z-index: 3;
+    }
+    .shop-here{
+        justify-content: space-evenly;
+        flex-direction: row;
+        top: 42%;
+        left: 50%;
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 375px) {
+    .gif-image{
+        width: 138px;
+    }
+    // .gif-container {
+    //     top: 71%;
+    //     left: 75%;
+    // }
+    .footer-image{
+        height: 90px;
+    }
+    .image-gallery {
+        top: -9rem;
+    }
+    .ninjastar-image{
+        width: 30%;
+        height: 45px;
+        left: 11px;
+        z-index: 3;
+    }
+    .shop-here{
+        justify-content: space-evenly;
+        flex-direction: row;
+        top: 42%;
+        left: 50%;
+        width: 100%;
+    }
+   
+    
+}
+
+@media only screen and (min-width: 425px) {
+    .gif-image{
+        width: 172px;
+    }
+    // .gif-container {
+    //     top: 71%!important;
+    //     left: 75%;
+    // }
+    .footer-image{
+        height: 90px;
+    }
+    .image-gallery {
+        top: -9rem;
+    }
+    .ninjastar-image{
+        width: 30%;
+        height: 45px;
+        left: 11px;
+        z-index: 3;
+    }
+    .shop-here{
+        justify-content: space-evenly;
+        flex-direction: row;
+        top: 46%;
+        left: 50%;    
+        width: 100%;
+    }
+    .footer-content {
+        flex-direction: column;
+        div {
+            margin-bottom: 1em;
+        }
+    } 
+   
+}
+
+
+@media only screen and (min-width: 768px) {
+    .gif-image{
+        width: 172px;
+    }
+    // .gif-container {
+    //     top: 67%;
+    //     left: 81%;
+    // }
+    .footer-image{
+        height: 90px;
+    }
+    .image-gallery {
+        top: -9rem;
+    }
+    .ninjastar-image{
+        height: 85px;
+        z-index: 3;
+    }
+    .shop-here{
+        justify-content: center;
+        flex-direction: column;
+        top: -4%;
+        left: 71%;
+    }
+    .footer-content {
+        flex-direction: row;
+       
+    } 
+    
+}
+@media only screen and (min-width: 1024px) {
+    
+   .ninjastar-image{
+        height: 108px;
+        width: 23%;
+   }
+}
+
+/* Responsiveness For iPad Mini */
+@media only screen and (min-width: 768px) and (min-height: 1024px) and (min-resolution: 49dpi){
+    .gif-image {
+        width: 165px;
+    }
+    // .gif-container {
+    //     top: 84%!important;
+    //     left: 83%;
+    // }
+    .shop-here {
+        top:-5%;
+        height: 100px;
+    }
+    .ninjastar-image {
+        width: 23%;
+        height: 123px;
+        left: 38px;
+        z-index: 3;
+    }
+}
+
+/* Responsiveness For iPad Air */
+@media only screen and (min-width: 820px) and (min-height: 1180px) {
+    /* Styles specific to iPad Air */
+       
+        .image-gallery{
+            top: -11rem;
+        }
+        .gif-image {
+            width: 193px;
+        }
+        .gif-container {
+            top: 80%;
+            left: 85%;
+        }
+       
+}
+
+// @media only screen and (min-width: 1024px) and (min-height: 1366px) and (min-resolution: 37dpi){
+//     /* Styles specific to iPad Pro */
+//         .banner-video {
+//             top: 43%;
+//         }
+
+//         .image-gallery{
+//             top: -22rem;
+//         }
+//         .gif-image {
+//             width: 193px;
+//         }
+//         .gif-container {
+//             top: 73% !important;;
+//             left: 85%;
+//         }
+//         .productlist-section {
+//             top: -18%;
+//             bottom: 16rem;
+//         }
+//         .ninjastar-image {
+//             width: 23%;
+//             height: 123px;
+//             left: 38px;
+//             z-index: 3;
+//         }
+       
+// }
