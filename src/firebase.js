@@ -28,13 +28,13 @@ import { getAnalytics } from "firebase/analytics";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyCcRtKf4frsXInZnoadbrHEkFGCaWF5DL4",
-  authDomain: "my-personal-portfolio-f9278.firebaseapp.com",
-  projectId: "my-personal-portfolio-f9278",
-  storageBucket: "my-personal-portfolio-f9278.appspot.com",
-  messagingSenderId: "534030606878",
-  appId: "1:534030606878:web:5e374484ecb3091cf3440f",
-  measurementId: "G-K3N4TWNBZB"
+  apiKey: "AIzaSyB7br8wPfebOCVS79Qf40zVbUyoRNYXMRI",
+  authDomain: "my-personal-portfolio-v2.firebaseapp.com",
+  projectId: "my-personal-portfolio-v2",
+  storageBucket: "my-personal-portfolio-v2.firebasestorage.app",
+  messagingSenderId: "1071681791721",
+  appId: "1:1071681791721:web:8f59452c676612ad3e3278",
+  measurementId: "G-0T9SQ3HJMH"
 };
 const dateTimetampNow = firestireTimestamp.now();
 // Initialize Firebase
