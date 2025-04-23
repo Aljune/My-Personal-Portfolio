@@ -161,7 +161,7 @@ export default {
         website: "",
         phone: "09065350079",
         city: "Purok 8, Cabayabsan, Cambanay , Danao City, Cebu 6004",
-        age: 29,
+        age: 30,
         degree: "Bachelor of Science in Information Technology",
         email: "degamolajune14@gmail.com",
         description: "Hello! I'm a creative professional specializing in UI/UX design, graphic design, and website development. I bring ideas to life through visually compelling interfaces and seamless user experiences. Let's collaborate to create something extraordinary!",
@@ -172,7 +172,7 @@ export default {
       contactStaticData: {
         city: "Purok 8, Cabayabsan, Cambanay , Danao City, Cebu 6004",
         email: "degamoaljune14@gmail.com",
-        phone: "09065350079",
+        phone: "+63 992 787 0196",
       },
       workStaticData: {
         title: "Test",
