@@ -10,6 +10,7 @@
                     <div v-for="work in recentWork" :key="work.id" class="col">
                         <div class="card-item" >
                             <div class="card shadow-sm">
+                                
                                 <img class="rounded img-fluid" :src="work.image"  alt="">
                                 <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
                                 <div class="card-body">
@@ -26,7 +27,7 @@
                                             </template>
                                         </div>
                                         
-                                        <small class="text-muted publish_date">{{work.publish_date}}</small>
+                                        <small class="text-muted publish_date d-none">{{work.publish_date}}</small>
                                     </div>
                                 </div>
                             </div>
@@ -39,6 +40,19 @@
 </template>
 <script>
 import { db, addDoc, collection, setDoc, doc, onSnapshot, orderBy, getDocs, deleteDoc , Timestamp, storage, ref, uploadBytes, getDownloadURL} from '@/firebase.js';
+import DmciImage from '@/assets/works/dmci.jpg';
+import DolkusImage from '@/assets/works/dolkus1.jpg';
+import FilInvestImage from '@/assets/works/fil-invest.jpg';
+import HakkundaiImage from '@/assets/works/hakkundai.jpg';
+import OhmylensiImage from '@/assets/works/ohmylens.jpg';
+import SensorImage from '@/assets/works/sensor-monitor.jpg';
+import TamImage from '@/assets/works/tam-inter-office.jpg';
+import UdonImage from '@/assets/works/udon-imai.jpg';
+import VivaImage from '@/assets/works/viva.jpg';
+import BmcImage from '@/assets/works/bmc.jpg';
+
+import BgImage from '@/assets/img/bg.jpg';
+
 
 export default {
     name: 'WorkComponent',
@@ -56,7 +70,144 @@ export default {
     methods: {
         async fetchRecentWorkData() {
             try {
-                this.recentWork = [];
+                this.recentWork = [
+                    {
+                        id: 1,
+                        name: 'DOLKUS',
+                        web_application: 'WORDPRESS',
+                        publish_date: '2027-12-01',
+                        web_url: 'http://dolkus.com/blog/',
+                        image: DolkusImage,
+                    },
+                    {
+                        id: 2,
+                        name: 'HAKKUNDAI',
+                        web_application: '.Net',
+                        publish_date: '2025-01-15',
+                        web_url: 'https://hakuundai.net/',
+                        image: HakkundaiImage,
+                    },
+                    {
+                        id: 3,
+                        name: 'D IMAI',
+                        web_application: 'WORDPRESS',
+                        publish_date: '2025-03-10',
+                        web_url: 'https://en.d-imai.com/',
+                        image: UdonImage,
+                    },
+                    {
+                        id: 4,
+                        name: 'KOKORO TALK',
+                        web_application: 'WORDPRESS',
+                        publish_date: '2025-03-10',
+                        web_url: 'https://kokoro-talk.com/',
+                        image: BgImage,
+                    },
+                    {
+                        id: 5,
+                        name: 'FILINVEST',
+                        web_application: 'VUE JS AND LARAVEL',
+                        publish_date: '2025-03-10',
+                        web_url: 'https://filinvest.com/',
+                        image: FilInvestImage,
+                    },
+                    {
+                        id: 17,
+                        name: 'Viva',
+                        web_application: 'VUE JS AND LARAVEL',
+                        publish_date: '2025-03-10',
+                        web_url: 'https://vivaondemand.com.ph/',
+                        image: VivaImage,
+                    },
+                    {
+                        id: 6,
+                        name: 'DMCI HOLDING',
+                        web_application: 'OCTOBERCMS',
+                        publish_date: '2025-03-10',
+                        web_url: 'https://staging.dmciholdings.com/',
+                        image: BgImage,
+                    },
+                    {
+                        id: 7,
+                        name: 'LABOUR HIRE RECRUITMENT (LHR AUSTRALIA)',
+                        web_application: 'WORDPRESS',
+                        publish_date: '2025-03-10',
+                        web_url: 'https://labourhireandrecruitment.com.au/',
+                        image: BgImage,
+                    },
+                    {
+                        id: 8,
+                        name: 'OHMYLENS',
+                        web_application: 'WORDPRESS',
+                        publish_date: '2025-03-10',
+                        web_url: 'https://ohmylens.com/',
+                        image: OhmylensiImage,
+                    },
+                    {
+                        id: 9,
+                        name: 'ROUNDUP REALTY CEBU',
+                        web_application: 'WORDPRESS',
+                        publish_date: '2025-03-10',
+                        web_url: 'https://rurcebu.com/',
+                        image: BgImage,
+                    },
+                    {
+                        id: 10,
+                        name: 'Tam(Customer Relationship Management for Office Manufacturing)',
+                        web_application: 'REACT JS/TS',
+                        publish_date: '2025-03-10',
+                        web_url: 'https://tam-development.web.app/login',
+                        image: TamImage,
+                    },
+                    {
+                        id: 11,
+                        name: 'PWP(Photo Wedding Portal)',
+                        web_application: 'REACT JS/TS',
+                        publish_date: '2025-03-10',
+                        web_url: 'https://yutaogawa.com/locophy/publish/',
+                        image: BgImage,
+                    },
+                    {
+                        id: 12,
+                        name: 'Fortune Telling Services',
+                        web_application: 'CAKE PHP',
+                        publish_date: '2025-03-10',
+                        web_url: 'https://www.elsa-online.net/',
+                        image: BgImage,
+                    },
+                    {
+                        id: 13,
+                        name: 'Gift information System',
+                        web_application: 'Kotlin Spring Boot & REACT TS',
+                        publish_date: '2025-03-10',
+                        web_url: 'https://site4.ec-cube.net/admin/login',
+                        image: BgImage,
+                    },
+                    {
+                        id: 14,
+                        name: 'Senior Citizen Sensor Monitor and Last Will and Instructions',
+                        web_application: 'Kotlin Spring Boot & REACT TS',
+                        publish_date: '2025-03-10',
+                        web_url: 'https://ora.seizen-seiri.net/login/input',
+                        image: SensorImage,
+                    },
+                    {
+                        id: 15,
+                        name: 'PWP(Photo Wedding Portal)',
+                        web_application: 'Kotlin Spring Boot & REACT TS',
+                        publish_date: '2025-03-10',
+                        web_url: 'https://yutaogawa.com/locophy/publish/',
+                        image: BgImage,
+                    },
+                    {
+                        id: 16,
+                        name: 'BNC',
+                        web_application: 'Kotlin Spring Boot & REACT TS',
+                        publish_date: '2025-03-10',
+                        web_url: 'https://bnc-development-bbfbe.web.app/',
+                        image: BmcImage,
+                    }
+                ];
             const q = collection(db, 'works'); 
             const querySnapshot = await getDocs(q);
 
