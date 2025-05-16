@@ -50,6 +50,10 @@ import TamImage from '@/assets/works/tam-inter-office.jpg';
 import UdonImage from '@/assets/works/udon-imai.jpg';
 import VivaImage from '@/assets/works/viva.jpg';
 import BmcImage from '@/assets/works/bmc.jpg';
+import LhrImage from '@/assets/works/lhr.jpg';
+import GiftInformationSystemImage from '@/assets/works/gift-information-system.jpg';
+import WeddingPicScanMeImage from '@/assets/works/wedding-pic-scan-me.jpg';
+import KokorotalkMeImage from '@/assets/works/kokoro-talk.jpg';
 
 import BgImage from '@/assets/img/bg.jpg';
 
@@ -101,7 +105,7 @@ export default {
                         web_application: 'WORDPRESS',
                         publish_date: '2025-03-10',
                         web_url: 'https://kokoro-talk.com/',
-                        image: BgImage,
+                        image: KokorotalkMeImage,
                     },
                     {
                         id: 5,
@@ -125,7 +129,7 @@ export default {
                         web_application: 'OCTOBERCMS',
                         publish_date: '2025-03-10',
                         web_url: 'https://staging.dmciholdings.com/',
-                        image: BgImage,
+                        image: DmciImage,
                     },
                     {
                         id: 7,
@@ -133,7 +137,7 @@ export default {
                         web_application: 'WORDPRESS',
                         publish_date: '2025-03-10',
                         web_url: 'https://labourhireandrecruitment.com.au/',
-                        image: BgImage,
+                        image: LhrImage,
                     },
                     {
                         id: 8,
@@ -160,14 +164,6 @@ export default {
                         image: TamImage,
                     },
                     {
-                        id: 11,
-                        name: 'PWP(Photo Wedding Portal)',
-                        web_application: 'REACT JS/TS',
-                        publish_date: '2025-03-10',
-                        web_url: 'https://yutaogawa.com/locophy/publish/',
-                        image: BgImage,
-                    },
-                    {
                         id: 12,
                         name: 'Fortune Telling Services',
                         web_application: 'CAKE PHP',
@@ -181,7 +177,7 @@ export default {
                         web_application: 'Kotlin Spring Boot & REACT TS',
                         publish_date: '2025-03-10',
                         web_url: 'https://site4.ec-cube.net/admin/login',
-                        image: BgImage,
+                        image: GiftInformationSystemImage,
                     },
                     {
                         id: 14,
@@ -206,6 +202,14 @@ export default {
                         publish_date: '2025-03-10',
                         web_url: 'https://bnc-development-bbfbe.web.app/',
                         image: BmcImage,
+                    },
+                    {
+                        id: 17,
+                        name: 'WEDDING PIC SCAN ME',
+                        web_application: 'Vue JS & Firebase',
+                        publish_date: '2025-03-10',
+                        web_url: 'https://wedding-pic-scan-me.netlify.app/',
+                        image: WeddingPicScanMeImage,
                     }
                 ];
             const q = collection(db, 'works'); 
