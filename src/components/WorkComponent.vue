@@ -158,7 +158,7 @@ export default {
                     {
                         id: 10,
                         name: 'Tam(Customer Relationship Management for Office Manufacturing)',
-                        web_application: 'REACT JS/TS',
+                        web_application: 'Next JS & REACT TS',
                         publish_date: '2025-03-10',
                         web_url: 'https://tam-development.web.app/login',
                         image: TamImage,
@@ -174,7 +174,7 @@ export default {
                     {
                         id: 13,
                         name: 'Gift information System',
-                        web_application: 'Kotlin Spring Boot & REACT TS',
+                        web_application: 'Next JS & REACT TS',
                         publish_date: '2025-03-10',
                         web_url: 'https://site4.ec-cube.net/admin/login',
                         image: GiftInformationSystemImage,
@@ -182,7 +182,7 @@ export default {
                     {
                         id: 14,
                         name: 'Senior Citizen Sensor Monitor and Last Will and Instructions',
-                        web_application: 'Kotlin Spring Boot & REACT TS',
+                        web_application: 'Next JS & REACT TS',
                         publish_date: '2025-03-10',
                         web_url: 'https://ora.seizen-seiri.net/login/input',
                         image: SensorImage,
@@ -190,7 +190,7 @@ export default {
                     {
                         id: 15,
                         name: 'PWP(Photo Wedding Portal)',
-                        web_application: 'Kotlin Spring Boot & REACT TS',
+                        web_application: 'Next JS & REACT TS',
                         publish_date: '2025-03-10',
                         web_url: 'https://yutaogawa.com/locophy/publish/',
                         image: BgImage,
@@ -198,7 +198,7 @@ export default {
                     {
                         id: 16,
                         name: 'BNC',
-                        web_application: 'Kotlin Spring Boot & REACT TS',
+                        web_application: 'Next JS &REACT TS',
                         publish_date: '2025-03-10',
                         web_url: 'https://bnc-development-bbfbe.web.app/',
                         image: BmcImage,
@@ -206,7 +206,7 @@ export default {
                     {
                         id: 17,
                         name: 'WEDDING PIC SCAN ME',
-                        web_application: 'Vue JS & Firebase',
+                        web_application: 'Vue JS & Boostratrap',
                         publish_date: '2025-03-10',
                         web_url: 'https://wedding-pic-scan-me.netlify.app/',
                         image: WeddingPicScanMeImage,
