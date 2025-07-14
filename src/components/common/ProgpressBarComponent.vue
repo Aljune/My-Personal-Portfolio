@@ -128,6 +128,26 @@
                             </div>
                         </div>
                     </div>
+                     <div class="col-12">
+                        <div class="text-end">
+                            <h5 class=" text-start text-white">
+                                Next JS
+                            </h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="text-end">
+                            <h5 class=" text-start text-white">
+                                Express JS
+                            </h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-12">
                         <div class="text-end">
                             <h5 class=" text-start text-white">
@@ -158,26 +178,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12">
-                        <div class="text-end">
-                            <h5 class=" text-start text-white">
-                                Next JS
-                            </h5>
-                            <div class="progress">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="text-end">
-                            <h5 class=" text-start text-white">
-                                Next JS
-                            </h5>
-                            <div class="progress">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                    </div>
+                   
                     <div class="col-12">
                         <div class="text-end">
                             <h5 class=" text-start text-white">
