@@ -83,7 +83,7 @@ import SensorImage from '@/assets/works/sensor-monitor.jpg';
 import BmcImage from '@/assets/works/bmc.jpg';
 import WeddingPicScanMeImage from '@/assets/works/wedding-pic-scan-me.jpg';
 import BgImage from '@/assets/img/bg.jpg';
-
+import CWA from '@/assets/works/Aljune-Merry-Church-Wedding-1st-Anniversary.png';
 export default {
   name: 'WorkComponent',
   data() {
@@ -113,7 +113,7 @@ export default {
           {
           id: 11,
           name: 'Tam(Customer Relationship Management for Office Manufacturing)',
-          web_application: 'Next JS & REACT TS',
+          web_application: 'Next JS & REACT TS & REACT NATIVE',
           publish_date: '2025-03-10',
           web_url: 'https://tam-development.web.app/login',
           image: TamImage,
@@ -129,7 +129,7 @@ export default {
         {
           id: 13,
           name: 'Gift information System',
-          web_application: 'Next JS & REACT TS',
+          web_application: 'Next JS & REACT TS & REACT NATIVE',
           publish_date: '2025-03-10',
           web_url: 'https://site4.ec-cube.net/admin/login',
           image: GiftInformationSystemImage,
@@ -145,7 +145,7 @@ export default {
         {
           id: 15,
           name: 'PWP(Photo Wedding Portal)',
-          web_application: 'Next JS & REACT TS',
+          web_application: 'Next JS & REACT TS & REACT NATIVE',
           publish_date: '2025-03-10',
           web_url: 'https://yutaogawa.com/locophy/publish/',
           image: BgImage,
@@ -238,7 +238,6 @@ export default {
           web_url: 'https://rurcebu.com/',
           image: BgImage,
         },
-       
         {
           id: 17,
           name: 'WEDDING PIC SCAN ME',
@@ -246,6 +245,14 @@ export default {
           publish_date: '2025-03-10',
           web_url: 'https://wedding-pic-scan-me.netlify.app/',
           image: WeddingPicScanMeImage,
+        }, 
+        {
+          id: 18,
+          name: 'CHURCH WEDDING 1st ANNIVERSARY',
+          web_application: 'Vue JS & Bootstrap',
+          publish_date: '2025-06-18',
+          web_url: 'https://church-wedding-anniversary.netlify.app/',
+          image: CWA,
         }
       ];
     }
