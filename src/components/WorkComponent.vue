@@ -84,6 +84,9 @@ import BmcImage from '@/assets/works/bmc.jpg';
 import WeddingPicScanMeImage from '@/assets/works/wedding-pic-scan-me.jpg';
 import BgImage from '@/assets/img/bg.jpg';
 import CWA from '@/assets/works/Aljune-Merry-Church-Wedding-1st-Anniversary.png';
+import Tabulate from '@/assets/works/Tabulate.png';  
+import WC from '@/assets/works/WC.png';  
+import Inreal from '@/assets/works/Inreal.png';  
 export default {
   name: 'WorkComponent',
   data() {
@@ -253,6 +256,30 @@ export default {
           publish_date: '2025-06-18',
           web_url: 'https://church-wedding-anniversary.netlify.app/',
           image: CWA,
+        },
+         {
+          id: 19,
+          name: 'PREMIUM DESIGN | TABULATE CRM',
+          web_application: 'Laravel Php & Tailwinds & Rest API',
+          publish_date: '2025-08-01',
+          web_url: 'https://dev-tenant.tabulatecrm.com/',
+          image: Tabulate,
+        },
+        {
+          id: 20,
+          name: 'WEALTH CLUB',
+          web_application: 'WORDPRESS DESIGN & DEVELOPER',
+          publish_date: '2025-09-10',
+          web_url: 'https://wealth-club.org/',
+          image: WC,
+        },
+        {
+          id: 21,
+          name: 'INREAL WEBSITE AND MOBILE APPLICATION',
+          web_application: 'PHP Native & React Native & EXPO & Express Js & Prisma',
+          publish_date: '2025-09-10',
+          web_url: 'https://inreal-website.vercel.app/',
+          image: Inreal,
         }
       ];
     }
